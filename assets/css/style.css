@@ -7,6 +7,7 @@ body {
 
 p {
     line-height: 1.8;
+    word-spacing: 2px;
 }
 
 main {
@@ -23,12 +24,7 @@ main {
     font-weight: 600;
 }
 
-footer {
-    height: 50px;
-    text-align: center;
-}
-
-footer a, footer p {
+footer a, footer span {
     font-size: 0.8rem;
     padding: 0 0.3rem;
 }

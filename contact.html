@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Guillermo's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:600|Roboto+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="container px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info rounded-bottom">
+            <a class="navbar-brand ml-4" href="index.html" id="my-name">Guillermo Barila</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Main content -->
+    <main class="container bg-light mt-5 mb-5">
+        <div id="main-content" class="row px-5 py-3">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Full name</label>
+                        <input type="name" class="form-control" id="name" aria-describedby="nameHelp" placeholder="Enter your fist and last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label><span style="color: red;">&nbsp;&ast;&nbsp;</span>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="textarea">Message</label>
+                        <textarea class="form-control" id="textarea" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info">Send</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Sticky footer -->
+    <footer class="container-fluid card-footer">
+        <div class="row justify-content-center">
+            <div class="d-flex justify-content-center">
+                <a href="https://www.github.com/gui365" target="_blank"><i class="fab fa-github fa-2x text-dark"></i></a>
+                <a href="https://www.linkedin.com/in/gbarila/" target="_blank"><i class="fab fa-linkedin fa-2x text-dark"></i></a>
+                <a href="https://www.facebook.com/gui365" target="_blank"><i class="fab fa-facebook fa-2x text-dark"></i></a>
+                <a href="https://stackoverflow.com/users/9636342/g-barila" target="_blank"><i class="fab fa-stack-overflow fa-2x text-dark"></i></a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <span>Copyright &copy;</span>
+        </div>
+    </footer>
+   
+
+    <!-- Scripts for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+

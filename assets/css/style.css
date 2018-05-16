@@ -30,11 +30,24 @@ footer a, footer span {
 }
 
 h5 {
-    
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
 }
 
 @media screen and (max-width: 760px) {
     #main-content {
         padding: 1rem !important;
     }
+}
+
+@media screen and (max-width: 767px) {
+    .margin-bottom {
+        margin-bottom: 2rem !important;
+    }
+}
+
+.card:hover {
+    transform: rotate(-3deg);
+    transition-duration: 500ms;
+    box-shadow: 3px 3px 10px #000;
 }

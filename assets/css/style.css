@@ -37,6 +37,7 @@ footer a, footer span {
 h5 {
     background-color: rgba(255, 255, 255, 0.5);
     font-weight: bold;
+    color: black;
 }
 
 @media screen and (max-width: 760px) {

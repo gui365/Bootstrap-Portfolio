@@ -30,8 +30,16 @@ h1 {
 }
 
 footer a, footer span {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     padding: 0 0.3rem;
+}
+
+footer {
+    height: 55px;
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(164, 235, 229) !important;
+    z-index: 2000 !important;
 }
 
 h5 {
@@ -40,6 +48,16 @@ h5 {
     color: black;
 }
 
+
+/* Pseudo classes */
+.card:hover {
+    transform: rotate(-3deg);
+    transition-duration: 500ms;
+    box-shadow: 3px 3px 10px #000;
+}
+
+
+/* Media queries */
 @media screen and (max-width: 760px) {
     #main-content {
         padding: 1rem !important;
@@ -50,10 +68,8 @@ h5 {
     .margin-bottom {
         margin-bottom: 2rem !important;
     }
-}
 
-.card:hover {
-    transform: rotate(-3deg);
-    transition-duration: 500ms;
-    box-shadow: 3px 3px 10px #000;
+    footer {
+        position: static;
+    }
 }
